@@ -21,7 +21,7 @@ import mex.com.curso.Services.IMascotas;
 						// usando @RequestMapping
 public class ControllerMascotas {
 
-	@Autowired
+	@Autowired //Inyeccion de dependecnias
 	private IMascotas iMascotas;
 
 	@ResponseBody
